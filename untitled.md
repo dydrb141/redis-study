@@ -1,25 +1,20 @@
 # Redis설치
 
-## Getting Super Powers
+## Mac에서 Redis 설
 
-Becoming a super hero is a fairly straight forward process:
+ mac에서 redis 띄우는법은 간단하다 
 
 ```
-$ give me super-powers
+$ brew install redis
 ```
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+### Mac에서 서비스 실행, 중지, 재시작
 
-Once you're strong enough, save the world:
-
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
+```text
+$ brew services start redis
+$ brew services stop redis
+$ brew services restart redis
 ```
-{% endcode %}
 
 
 
