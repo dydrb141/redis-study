@@ -16,5 +16,11 @@ $ brew services stop redis
 $ brew services restart redis
 ```
 
+위 redis를 start한 후  아래 명령어를  실행해야 레디스가 구동 됨.
+
+```text
+$ redis-server
+```
+
 
 
