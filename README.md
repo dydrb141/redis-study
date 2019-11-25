@@ -20,21 +20,31 @@
 1. 메모리 파편화가 발생하기 쉽다.
 2. 대규모 데이터에 대한 응답 속도의 불안정성
 
-### 데이터 모델
+### 데이터 타입
 
-1. Key-Value 
+String
 
-   1. 하나의 Key에 하나의 Value를 갖는 데이터 모델
-   2. Key로만 접근 가능
+* Text 숫자등 일반적인 Value
 
-2. Column
+Set
 
-   1. 하나의 Key에 여러개의 Value를 갖을 수 있는 데이터 모델
-   2. 중첩된 HashMap구조
+* 하나의 키 값에 여러개의 Set자료 구조 제공
 
-3. Document
-   1. Value가 Json이나 XML Doucment를 갖는 데이터 모델
-   2. Value의 일부로 질의하고 일부만 가져올 수 있
+SortedSet
+
+* score라는 필드가 추가되어 정렬의 기준이 됨
+* score를 통해 질의 가
+* 그 외에는 Set과 동
+
+Hashes
+
+* Value가 Map자료구조와 같은 Key/Value형식이 
+
+List
+
+* Value가 linkedList자료 구조가 됨
+* Push/Pop 연산 가능
+* index 활용 질의 가
 
 
 
