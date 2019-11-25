@@ -20,6 +20,24 @@
 1. 메모리 파편화가 발생하기 쉽다.
 2. 대규모 데이터에 대한 응답 속도의 불안정성
 
+### 데이터 모델
+
+1. Key-Value 
+
+   1. 하나의 Key에 하나의 Value를 갖는 데이터 모델
+   2. Key로만 접근 가능
+
+2. Column
+
+   1. 하나의 Key에 여러개의 Value를 갖을 수 있는 데이터 모델
+   2. 중첩된 HashMap구조
+
+3. Document
+   1. Value가 Json이나 XML Doucment를 갖는 데이터 모델
+   2. Value의 일부로 질의하고 일부만 가져올 수 있
+
+
+
 
 
 
