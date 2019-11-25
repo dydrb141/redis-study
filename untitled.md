@@ -1,6 +1,6 @@
 # Redis설치
 
-## Mac에서 Redis 설
+## Mac에서 Redis 설치
 
  mac에서 redis 띄우는법은 간단하다.
 
